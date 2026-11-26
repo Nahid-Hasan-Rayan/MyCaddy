@@ -1,5 +1,5 @@
 {
-  "relay": "wss://REPLACE-ME.onrender.com",
-  "relayHealth": "https://REPLACE-ME.onrender.com/health",
+  "relay": "wss://mycaddy-relay.onrender.com",
+  "relayHealth": "https://mycaddy-relay.onrender.com/health",
   "proxy": "https://REPLACE-ME.vercel.app/api/word"
 }
