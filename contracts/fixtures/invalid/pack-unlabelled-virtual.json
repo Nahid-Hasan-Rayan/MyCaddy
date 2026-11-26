@@ -1,0 +1,6 @@
+{
+  "id": "x", "name": "x", "version": 1, "simulatedHazards": false,
+  "holes": [ { "n": 1, "par": 4, "green": [ {"lat":1,"lng":1}, {"lat":1,"lng":2}, {"lat":2,"lng":1} ],
+    "hazards": [ { "id": "w", "type": "water", "polygon": [ {"lat":1,"lng":1}, {"lat":1,"lng":2}, {"lat":2,"lng":1} ] } ],
+    "source": "virtual" } ]
+}

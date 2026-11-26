@@ -1,0 +1,1 @@
+{ "t": "events", "batch": [ { "id": "e9", "playerId": "p1", "hole": 2, "strokes": 4, "ts": 1, "resolves": ["e1"] } ] }

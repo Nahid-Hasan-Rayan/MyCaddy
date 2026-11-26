@@ -1,0 +1,9 @@
+{
+  "t": "state",
+  "players": [
+    { "id": "p1", "name": "Nahid", "state": "online" },
+    { "id": "p2", "name": "Ayham", "state": "offline" },
+    { "id": "p3", "name": "Ghazi", "state": "away" }
+  ],
+  "lock": null
+}

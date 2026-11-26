@@ -1,0 +1,29 @@
+{
+  "id": "klgcc-west",
+  "name": "Kuala Lumpur Golf & Country Club, West Course",
+  "city": "Kuala Lumpur",
+  "source": "https://www.klgcc.com/golf/courses/west-course",
+  "checked": "2026-11-20",
+  "unit": "m",
+  "teeSets": ["tee1", "tee2", "tee3", "tee4"],
+  "holes": [
+    { "n": 1,  "par": 4, "lengths": [367, 351, 316, 308], "mentionsWater": false, "mentionsBunkers": true },
+    { "n": 2,  "par": 4, "lengths": [406, 391, 376, 357], "mentionsWater": true,  "mentionsBunkers": true },
+    { "n": 3,  "par": 5, "lengths": [460, 447, 418, 383], "mentionsWater": false, "mentionsBunkers": true },
+    { "n": 4,  "par": 3, "lengths": [128, 118, 110, 103], "mentionsWater": false, "mentionsBunkers": false },
+    { "n": 5,  "par": 5, "lengths": [474, 457, 428, 409], "mentionsWater": true,  "mentionsBunkers": true },
+    { "n": 6,  "par": 4, "lengths": [384, 361, 355, 332], "mentionsWater": false, "mentionsBunkers": true },
+    { "n": 7,  "par": 4, "lengths": [353, 343, 311, 294], "mentionsWater": true,  "mentionsBunkers": true },
+    { "n": 8,  "par": 3, "lengths": [186, 172, 155, 131], "mentionsWater": false, "mentionsBunkers": true },
+    { "n": 9,  "par": 4, "lengths": [369, 351, 328, 287], "mentionsWater": true,  "mentionsBunkers": true },
+    { "n": 10, "par": 5, "lengths": [493, 472, 433, 385], "mentionsWater": true,  "mentionsBunkers": true },
+    { "n": 11, "par": 3, "lengths": [207, 185, 158, 130], "mentionsWater": true,  "mentionsBunkers": false },
+    { "n": 12, "par": 4, "lengths": [438, 410, 390, 355], "mentionsWater": true,  "mentionsBunkers": true },
+    { "n": 13, "par": 4, "lengths": [420, 378, 334, 304], "mentionsWater": false, "mentionsBunkers": true },
+    { "n": 14, "par": 4, "lengths": [327, 309, 291, 273], "mentionsWater": true,  "mentionsBunkers": true },
+    { "n": 15, "par": 3, "lengths": [182, 165, 142, 116], "mentionsWater": true,  "mentionsBunkers": true },
+    { "n": 16, "par": 4, "lengths": [291, 269, 260, 241], "mentionsWater": false, "mentionsBunkers": true },
+    { "n": 17, "par": 4, "lengths": [307, 296, 266, 252], "mentionsWater": true,  "mentionsBunkers": true },
+    { "n": 18, "par": 5, "lengths": [580, 565, 514, 476], "mentionsWater": false, "mentionsBunkers": true }
+  ]
+}

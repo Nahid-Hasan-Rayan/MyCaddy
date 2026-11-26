@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "events": [ { "id": "e1", "playerId": "p1", "hole": 1, "strokes": 4, "ts": 1790000100000 } ],
+  "settings": { "mode": "play", "language": "en" },
+  "clubStats": { "7i": { "mean": 142, "sd": 7.5, "count": 12 } },
+  "holeHistory": { "1": [ { "visit": 1, "miss": "left" } ] }
+}

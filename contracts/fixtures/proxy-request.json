@@ -1,0 +1,5 @@
+{
+  "facts": { "kind": "club_advice", "club": "7i", "distance": 142, "plusMinus": 6, "poorGps": false, "reasons": ["into wind"] },
+  "lang": "en",
+  "mode": "learn"
+}

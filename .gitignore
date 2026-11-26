@@ -1,0 +1,8 @@
+node_modules
+engine/types
+dist
+.env
+.env.*
+*.zip
+keys/
+*.pem

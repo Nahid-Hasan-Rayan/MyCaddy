@@ -1,0 +1,21 @@
+{
+  "t": "resume",
+  "lobbyId": "lob_01",
+  "code": "K7M2QX",
+  "organiserToken": "tok_demo",
+  "snapshot": {
+    "mode": "play",
+    "holes": 9,
+    "lock": null,
+    "createdAt": 1790000000000,
+    "expiresAt": 1790043200000,
+    "players": [
+      { "id": "p1", "name": "Nahid", "deviceId": "dev_a", "approved": true },
+      { "id": "p2", "name": "Ayham", "deviceId": "dev_b", "approved": true }
+    ],
+    "events": [
+      { "id": "e1", "playerId": "p1", "hole": 1, "strokes": 4, "ts": 1790000100000 },
+      { "id": "e2", "playerId": "p2", "hole": 1, "strokes": 5, "ts": 1790000160000 }
+    ]
+  }
+}

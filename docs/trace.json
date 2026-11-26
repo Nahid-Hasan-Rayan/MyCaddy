@@ -1,0 +1,1058 @@
+[
+  {
+    "tag": "A53",
+    "title": "@A53 reads digits, decimals, thousands and percentages",
+    "file": "engine/test/guard.test.ts",
+    "line": 6
+  },
+  {
+    "tag": "A53",
+    "title": "@A53 reads English number words",
+    "file": "engine/test/guard.test.ts",
+    "line": 12
+  },
+  {
+    "tag": "A53",
+    "title": "@A53 reads Malay number words",
+    "file": "engine/test/guard.test.ts",
+    "line": 20
+  },
+  {
+    "tag": "A53",
+    "title": "@A53 reads full-width, Arabic-Indic and superscript digits",
+    "file": "engine/test/guard.test.ts",
+    "line": 28
+  },
+  {
+    "tag": "A53",
+    "title": "@A53 flags a number that is not in the facts",
+    "file": "engine/test/guard.test.ts",
+    "line": 35
+  },
+  {
+    "tag": "A53",
+    "title": "@A53 a tolerance lets rounded values pass",
+    "file": "engine/test/guard.test.ts",
+    "line": 41
+  },
+  {
+    "tag": "A53",
+    "title": "@A53 500 cases: no invented number gets through",
+    "file": "tools/fuzz/fuzz.test.ts",
+    "line": 9
+  },
+  {
+    "tag": "A53",
+    "title": "@A53 500 cases: no valid wording is rejected",
+    "file": "tools/fuzz/fuzz.test.ts",
+    "line": 14
+  },
+  {
+    "tag": "A53",
+    "title": "@A53 the run has both kinds of case",
+    "file": "tools/fuzz/fuzz.test.ts",
+    "line": 19
+  },
+  {
+    "tag": "A97",
+    "title": "@A97 a correction replaces the score and the history keeps both",
+    "file": "engine/test/scoring.test.ts",
+    "line": 10
+  },
+  {
+    "tag": "A97",
+    "title": "@A97 a chain of corrections ends at the last one",
+    "file": "engine/test/scoring.test.ts",
+    "line": 15
+  },
+  {
+    "tag": "A97",
+    "title": "@A97 two corrections of the same score: the later one wins, ties break by id",
+    "file": "engine/test/scoring.test.ts",
+    "line": 20
+  },
+  {
+    "tag": "A97",
+    "title": "@A97 a correction whose target has not arrived still stands, then replaces it when it does",
+    "file": "engine/test/scoring.test.ts",
+    "line": 25
+  },
+  {
+    "tag": "A97",
+    "title": "@A97 a correction cannot reach a different player or hole",
+    "file": "engine/test/scoring.test.ts",
+    "line": 30
+  },
+  {
+    "tag": "A97",
+    "title": "@A97 a correction for another player cannot hide a competing score",
+    "file": "engine/test/scoring.test.ts",
+    "line": 36
+  },
+  {
+    "tag": "A97",
+    "title": "@A97 a loop of corrections still gives one stable answer",
+    "file": "engine/test/scoring.test.ts",
+    "line": 41
+  },
+  {
+    "tag": "A97",
+    "title": "@A97 totals add the final score of each hole",
+    "file": "engine/test/scoring.test.ts",
+    "line": 46
+  },
+  {
+    "tag": "A97",
+    "title": "@A97 the same id with different content resolves the same way in any order",
+    "file": "engine/test/scoring.test.ts",
+    "line": 52
+  },
+  {
+    "tag": "A97",
+    "title": "@A97 two competing scores for one hole are listed as a conflict",
+    "file": "engine/test/scoring.test.ts",
+    "line": 63
+  },
+  {
+    "tag": "A97",
+    "title": "@A97 one correction can resolve both competing scores",
+    "file": "engine/test/scoring.test.ts",
+    "line": 69
+  },
+  {
+    "tag": "A97",
+    "title": "@A97 a resolving correction does nothing to other players or holes",
+    "file": "engine/test/scoring.test.ts",
+    "line": 75
+  },
+  {
+    "tag": "A97",
+    "title": "@A97 a normal round has no conflicts",
+    "file": "engine/test/scoring.test.ts",
+    "line": 80
+  },
+  {
+    "tag": "A97",
+    "title": "@A97 1,000 random merge orders with duplicates and splits give the same result",
+    "file": "engine/test/scoring.test.ts",
+    "line": 111
+  },
+  {
+    "tag": "A97",
+    "title": "@A97 merging is idempotent and commutative",
+    "file": "engine/test/scoring.test.ts",
+    "line": 124
+  },
+  {
+    "tag": "C6",
+    "title": "@C6 competition never leaks advice, insight or debrief",
+    "file": "engine/test/rules.audit.test.ts",
+    "line": 9
+  },
+  {
+    "tag": "C6",
+    "title": "@C6 devices banned blocks everything except safety and scoring",
+    "file": "engine/test/rules.audit.test.ts",
+    "line": 18
+  },
+  {
+    "tag": "C6",
+    "title": "@C6 safety and scoring are allowed in every mode and flag",
+    "file": "engine/test/rules.audit.test.ts",
+    "line": 27
+  },
+  {
+    "tag": "C6",
+    "title": "@C6 the distance flag changes nothing outside competition",
+    "file": "engine/test/rules.audit.test.ts",
+    "line": 34
+  },
+  {
+    "tag": "C6",
+    "title": "@C6 asking never unlocks a blocked cell",
+    "file": "engine/test/rules.audit.test.ts",
+    "line": 43
+  },
+  {
+    "tag": "C7",
+    "title": "@C7 key order and undefined values do not change the bytes",
+    "file": "tools/pack/pack.test.ts",
+    "line": 17
+  },
+  {
+    "tag": "C7",
+    "title": "@C7 the signature field is left out of the signed bytes",
+    "file": "tools/pack/pack.test.ts",
+    "line": 21
+  },
+  {
+    "tag": "C7",
+    "title": "@C7 a signed pack verifies and the signature fits the contract",
+    "file": "tools/pack/pack.test.ts",
+    "line": 27
+  },
+  {
+    "tag": "C7",
+    "title": "@C7 a tampered pack is rejected",
+    "file": "tools/pack/pack.test.ts",
+    "line": 33
+  },
+  {
+    "tag": "C7",
+    "title": "@C7 the wrong key, a missing signature and a bad key are rejected",
+    "file": "tools/pack/pack.test.ts",
+    "line": 46
+  },
+  {
+    "tag": "C7",
+    "title": "@C7 the demo pack is valid, signed or not",
+    "file": "tools/pack/pack.test.ts",
+    "line": 55
+  },
+  {
+    "tag": "C7",
+    "title": "@C7 a tampered pack fails validation with a key, an unsigned pack fails when a signature is required",
+    "file": "tools/pack/pack.test.ts",
+    "line": 60
+  },
+  {
+    "tag": "C7",
+    "title": "@C7 catches duplicate ids, crossing polygons and wrong hole order",
+    "file": "tools/pack/pack.test.ts",
+    "line": 67
+  },
+  {
+    "tag": "C7",
+    "title": "@C7 catches a missing hole that still has geometry and a silent hole that is not marked",
+    "file": "tools/pack/pack.test.ts",
+    "line": 79
+  },
+  {
+    "tag": "C7",
+    "title": "@C7 a hazard with no area is refused",
+    "file": "tools/pack/pack.test.ts",
+    "line": 89
+  },
+  {
+    "tag": "C7",
+    "title": "@C7 rejects virtual hazards that are not labelled as simulated",
+    "file": "tools/pack/pack.test.ts",
+    "line": 96
+  },
+  {
+    "tag": "C8",
+    "title": "@C8 every check passes on this relay",
+    "file": "tools/quality/probe.test.ts",
+    "line": 9
+  },
+  {
+    "tag": "C8",
+    "title": "@C8 a relay with no limits and a guessable organiser device id fails the checks",
+    "file": "tools/quality/probe.test.ts",
+    "line": 17
+  },
+  {
+    "tag": "F3",
+    "title": "@Q3 @F3 four phones, one drop and rejoin, one relay restart, 0 lost events",
+    "file": "server/relay/test/lobby.e2e.test.ts",
+    "line": 8
+  },
+  {
+    "tag": "F3",
+    "title": "@Q3 @F3 a restarted relay rebuilds the lobby from the organiser snapshot",
+    "file": "server/relay/test/relay.test.ts",
+    "line": 172
+  },
+  {
+    "tag": "Q3",
+    "title": "@Q3 @F3 four phones, one drop and rejoin, one relay restart, 0 lost events",
+    "file": "server/relay/test/lobby.e2e.test.ts",
+    "line": 8
+  },
+  {
+    "tag": "Q3",
+    "title": "@Q3 @F3 a restarted relay rebuilds the lobby from the organiser snapshot",
+    "file": "server/relay/test/relay.test.ts",
+    "line": 172
+  },
+  {
+    "tag": "Q3",
+    "title": "@Q3 resuming a lobby that still exists merges events instead of rebuilding",
+    "file": "server/relay/test/relay.test.ts",
+    "line": 189
+  },
+  {
+    "tag": "Q7",
+    "title": "@Q7 finds the median, p90 and sigma of a known error",
+    "file": "tools/evidence/gps.test.ts",
+    "line": 19
+  },
+  {
+    "tag": "Q7",
+    "title": "@Q7 a correct 68% radius contains about 68% of readings",
+    "file": "tools/evidence/gps.test.ts",
+    "line": 27
+  },
+  {
+    "tag": "Q7",
+    "title": "@Q7 an over-confident radius is reported as such",
+    "file": "tools/evidence/gps.test.ts",
+    "line": 32
+  },
+  {
+    "tag": "Q7",
+    "title": "@Q7 the 5 m target is measured against the readings",
+    "file": "tools/evidence/gps.test.ts",
+    "line": 37
+  },
+  {
+    "tag": "Q7",
+    "title": "@Q7 reads a csv and refuses a bad one",
+    "file": "tools/evidence/gps.test.ts",
+    "line": 42
+  },
+  {
+    "tag": "Q7",
+    "title": "@Q7 draws a plot",
+    "file": "tools/evidence/gps.test.ts",
+    "line": 49
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 client message ${f}",
+    "file": "contracts/test/contracts.test.ts",
+    "line": 21
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 server message ${f}",
+    "file": "contracts/test/contracts.test.ts",
+    "line": 24
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 proxy request and response",
+    "file": "contracts/test/contracts.test.ts",
+    "line": 26
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 course pack",
+    "file": "contracts/test/contracts.test.ts",
+    "line": 31
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 export",
+    "file": "contracts/test/contracts.test.ts",
+    "line": 32
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 rejects ${f} as BAD",
+    "file": "contracts/test/contracts.test.ts",
+    "line": 37
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 proxy refuses competition mode",
+    "file": "contracts/test/contracts.test.ts",
+    "line": 43
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 pack must label virtual hazards as simulated",
+    "file": "contracts/test/contracts.test.ts",
+    "line": 46
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 export refuses secret-like keys",
+    "file": "contracts/test/contracts.test.ts",
+    "line": 49
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 unknown fields are dropped",
+    "file": "contracts/test/contracts.test.ts",
+    "line": 54
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 raw json strings and garbage are handled",
+    "file": "contracts/test/contracts.test.ts",
+    "line": 60
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 names are trimmed",
+    "file": "contracts/test/contracts.test.ts",
+    "line": 67
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 oversized event batches are rejected",
+    "file": "contracts/test/contracts.test.ts",
+    "line": 72
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 code alphabet has no look-alike characters",
+    "file": "contracts/test/contracts.test.ts",
+    "line": 78
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 bad json and bad messages get BAD, health check answers",
+    "file": "server/relay/test/lobby.e2e.test.ts",
+    "line": 15
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 a socket that floods messages gets RATE and is dropped",
+    "file": "server/relay/test/lobby.e2e.test.ts",
+    "line": 33
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 create returns a code, invite link and organiser token",
+    "file": "server/relay/test/relay.test.ts",
+    "line": 37
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 join needs approval and the organiser sees the name",
+    "file": "server/relay/test/relay.test.ts",
+    "line": 45
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 a denied player is removed",
+    "file": "server/relay/test/relay.test.ts",
+    "line": 59
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 a fifth person is refused: cap of 4 players",
+    "file": "server/relay/test/relay.test.ts",
+    "line": 69
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 joins are limited to 10 a minute per address",
+    "file": "server/relay/test/relay.test.ts",
+    "line": 77
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 unknown codes and unbound sockets are refused",
+    "file": "server/relay/test/relay.test.ts",
+    "line": 94
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 events are forwarded once, never echoed, and deduped by id",
+    "file": "server/relay/test/relay.test.ts",
+    "line": 105
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 only the organiser can approve or lock",
+    "file": "server/relay/test/relay.test.ts",
+    "line": 116
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 the same device rejoins without approval and gets every event",
+    "file": "server/relay/test/relay.test.ts",
+    "line": 131
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 a quiet player shows as away after a minute",
+    "file": "server/relay/test/relay.test.ts",
+    "line": 145
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 a wrong token, a wrong secret or a wrong code is refused",
+    "file": "server/relay/test/relay.test.ts",
+    "line": 198
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 an expired snapshot is refused",
+    "file": "server/relay/test/relay.test.ts",
+    "line": 212
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 lobbies expire after 12 hours and are deleted after 24",
+    "file": "server/relay/test/relay.test.ts",
+    "line": 222
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 joining with the organiser's device id does not give organiser rights",
+    "file": "server/relay/test/security.test.ts",
+    "line": 23
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 even the real organiser device id cannot be used to join as the organiser",
+    "file": "server/relay/test/security.test.ts",
+    "line": 36
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 a lobby is closed at exactly twelve hours",
+    "file": "server/relay/test/security.test.ts",
+    "line": 47
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 one address cannot fill the relay with lobbies",
+    "file": "server/relay/test/security.test.ts",
+    "line": 59
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 the relay refuses new lobbies at its global cap",
+    "file": "server/relay/test/security.test.ts",
+    "line": 67
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 events for a player who is not in the lobby are ignored and reported",
+    "file": "server/relay/test/security.test.ts",
+    "line": 75
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 a resume snapshot with duplicate or odd player ids is refused",
+    "file": "server/relay/test/security.test.ts",
+    "line": 82
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 names lose control, zero-width and direction-override characters",
+    "file": "server/relay/test/security.test.ts",
+    "line": 100
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 a browser origin is refused unless it is on the list",
+    "file": "server/relay/test/security.test.ts",
+    "line": 119
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 an address is limited to a number of open connections",
+    "file": "server/relay/test/security.test.ts",
+    "line": 131
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 a socket that never joins or creates a lobby is closed",
+    "file": "server/relay/test/security.test.ts",
+    "line": 143
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 a message over the size limit closes the socket",
+    "file": "server/relay/test/security.test.ts",
+    "line": 153
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 health reports counts only, never names or scores",
+    "file": "server/relay/test/security.test.ts",
+    "line": 164
+  },
+  {
+    "tag": "R1",
+    "title": "@R1 the largest allowed message full of empty objects is rejected quickly",
+    "file": "server/relay/test/security.test.ts",
+    "line": 178
+  },
+  {
+    "tag": "R2",
+    "title": "@R2 every message type has a full row",
+    "file": "engine/test/rules.test.ts",
+    "line": 9
+  },
+  {
+    "tag": "R2",
+    "title": "@R2 relax gives distance and club advice only on request",
+    "file": "engine/test/rules.test.ts",
+    "line": 13
+  },
+  {
+    "tag": "R2",
+    "title": "@R2 competition keeps distance but drops advice and warnings",
+    "file": "engine/test/rules.test.ts",
+    "line": 20
+  },
+  {
+    "tag": "R2",
+    "title": "@R2 devices banned switches the competition column",
+    "file": "engine/test/rules.test.ts",
+    "line": 28
+  },
+  {
+    "tag": "R2",
+    "title": "@R2 game plan in competition needs to be made before the round",
+    "file": "engine/test/rules.test.ts",
+    "line": 36
+  },
+  {
+    "tag": "R2",
+    "title": "@R2 a club distance chart is allowed in competition only when built from prior rounds",
+    "file": "engine/test/rules.test.ts",
+    "line": 43
+  },
+  {
+    "tag": "R2",
+    "title": "@R2 learn explains club advice",
+    "file": "engine/test/rules.test.ts",
+    "line": 50
+  },
+  {
+    "tag": "R2",
+    "title": "@R2 banned inputs are caught in any spelling",
+    "file": "engine/test/rules.test.ts",
+    "line": 56
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 front, middle and back along the line to the centre",
+    "file": "engine/test/green.test.ts",
+    "line": 10
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 standing on the green gives a front of zero",
+    "file": "engine/test/green.test.ts",
+    "line": 17
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 no green polygon gives no distances",
+    "file": "engine/test/green.test.ts",
+    "line": 23
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 phi matches reference values",
+    "file": "engine/test/hazards.test.ts",
+    "line": 15
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 sigma combines club, gps and geometry",
+    "file": "engine/test/hazards.test.ts",
+    "line": 22
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 a 68% radius becomes a one-axis sigma of about two thirds of it",
+    "file": "engine/test/hazards.test.ts",
+    "line": 28
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 the converted sigma puts 68% of fixes inside the reported radius",
+    "file": "engine/test/hazards.test.ts",
+    "line": 33
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 hand case: short of 145 m with mean 150",
+    "file": "engine/test/hazards.test.ts",
+    "line": 42
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 hand case: landing between 140 and 160 m",
+    "file": "engine/test/hazards.test.ts",
+    "line": 46
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 hand case: hazard 170 to 185 m with mean 165",
+    "file": "engine/test/hazards.test.ts",
+    "line": 50
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 bands use the 10 and 30 percent edges",
+    "file": "engine/test/hazards.test.ts",
+    "line": 54
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 finds entry and exit along the line",
+    "file": "engine/test/hazards.test.ts",
+    "line": 65
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 returns null when the line misses",
+    "file": "engine/test/hazards.test.ts",
+    "line": 72
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 ignores hazards behind the player",
+    "file": "engine/test/hazards.test.ts",
+    "line": 76
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 near is zero when the player stands inside",
+    "file": "engine/test/hazards.test.ts",
+    "line": 80
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 haversine agrees with the local projection",
+    "file": "engine/test/hazards.test.ts",
+    "line": 86
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 ranks by risk and drops hazards off the line",
+    "file": "engine/test/hazards.test.ts",
+    "line": 96
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 a missing source gives no hazards",
+    "file": "engine/test/hazards.test.ts",
+    "line": 104
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 worse geometry widens the spread and lowers peak risk",
+    "file": "engine/test/hazards.test.ts",
+    "line": 108
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 a hazard wider than the spread matches the depth-only formula",
+    "file": "engine/test/hazards.test.ts",
+    "line": 119
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 a hazard far to one side is much less likely than one on the line",
+    "file": "engine/test/hazards.test.ts",
+    "line": 124
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 left and right are mirror images",
+    "file": "engine/test/hazards.test.ts",
+    "line": 130
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 a small hazard at the mean matches area times density",
+    "file": "engine/test/hazards.test.ts",
+    "line": 136
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 a wider sideways spread makes a side hazard more likely",
+    "file": "engine/test/hazards.test.ts",
+    "line": 141
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 assessHazards keeps a side hazard that the shot line misses",
+    "file": "engine/test/hazards.test.ts",
+    "line": 147
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 ${f} passes the schema",
+    "file": "tools/courses/facts.test.ts",
+    "line": 12
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 KLGCC West is par 72 and 6372 m from the first tee set",
+    "file": "tools/courses/facts.test.ts",
+    "line": 17
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 the club page names water on 10 holes",
+    "file": "tools/courses/facts.test.ts",
+    "line": 23
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 rejects tee lengths that grow and missing lengths",
+    "file": "tools/courses/facts.test.ts",
+    "line": 27
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 all cases match within rounding",
+    "file": "tools/evidence/hazard-cases.test.ts",
+    "line": 6
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 converting the GPS radius lowers the risk when the hazard sits on the tail",
+    "file": "tools/evidence/sensitivity.test.ts",
+    "line": 6
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 a wider spread prior raises tail risk and can change the band",
+    "file": "tools/evidence/sensitivity.test.ts",
+    "line": 11
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 classifies tags and skips cart paths and wastewater",
+    "file": "tools/osm/coverage.test.ts",
+    "line": 43
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 counts features inside each course",
+    "file": "tools/osm/coverage.test.ts",
+    "line": 51
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 counts features outside every course",
+    "file": "tools/osm/coverage.test.ts",
+    "line": 56
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 assigns features to the nearest hole",
+    "file": "tools/osm/coverage.test.ts",
+    "line": 60
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 notes missing greens and missing hole lines",
+    "file": "tools/osm/coverage.test.ts",
+    "line": 67
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 text report names both courses",
+    "file": "tools/osm/coverage.test.ts",
+    "line": 74
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 green distances from the tee match the layout",
+    "file": "tools/pack/pack.test.ts",
+    "line": 108
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 the engine finds the water in front of the green at the laid-out distance",
+    "file": "tools/pack/pack.test.ts",
+    "line": 116
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 a longer club clears the water and the risk falls",
+    "file": "tools/pack/pack.test.ts",
+    "line": 124
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 assigns greens and hazards to holes and marks silent holes as missing",
+    "file": "tools/pack/pack.test.ts",
+    "line": 150
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 refuses an export with no hole lines, like the KLGCC one",
+    "file": "tools/pack/pack.test.ts",
+    "line": 159
+  },
+  {
+    "tag": "R3",
+    "title": "@R3 refuses an unknown course name",
+    "file": "tools/pack/pack.test.ts",
+    "line": 164
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 calm round scores zero",
+    "file": "engine/test/load.test.ts",
+    "line": 8
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 every signal pushes the score up",
+    "file": "engine/test/load.test.ts",
+    "line": 12
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 score stays between 0 and 100",
+    "file": "engine/test/load.test.ts",
+    "line": 20
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 inactive when the gate blocks messages",
+    "file": "engine/test/load.test.ts",
+    "line": 25
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 uses the 30 and 60 edges",
+    "file": "engine/test/load.test.ts",
+    "line": 32
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 never speaks during a stroke",
+    "file": "engine/test/load.test.ts",
+    "line": 41
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 silent level speaks only when asked",
+    "file": "engine/test/load.test.ts",
+    "line": 46
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 safety alerts get through the silent level",
+    "file": "engine/test/load.test.ts",
+    "line": 51
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 inactive load does not restrict speech",
+    "file": "engine/test/load.test.ts",
+    "line": 55
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 a yard is 0.9144 m and the 15 handicap prior holds in plain metres",
+    "file": "engine/test/priors.test.ts",
+    "line": 6
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 the inverse normal matches known quantiles",
+    "file": "engine/test/priors.test.ts",
+    "line": 11
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 14% of shots within 5 yards implies a spread of about 28 yards",
+    "file": "engine/test/priors.test.ts",
+    "line": 16
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 a 15 handicap 7-iron prior is about 26 m",
+    "file": "engine/test/priors.test.ts",
+    "line": 20
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 better players are tighter, and the prior scales with club distance",
+    "file": "engine/test/priors.test.ts",
+    "line": 24
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 handicaps outside the data range are clamped",
+    "file": "engine/test/priors.test.ts",
+    "line": 30
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 starts at the prior with no shots",
+    "file": "engine/test/twin.test.ts",
+    "line": 23
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 quality labels follow the shot count",
+    "file": "engine/test/twin.test.ts",
+    "line": 27
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 few shots stay close to the prior, many shots move to the data",
+    "file": "engine/test/twin.test.ts",
+    "line": 34
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 error falls as shots are added (seeded)",
+    "file": "engine/test/twin.test.ts",
+    "line": 41
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 stays quiet under three visits",
+    "file": "engine/test/twin.test.ts",
+    "line": 61
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 speaks after three visits with a clear majority",
+    "file": "engine/test/twin.test.ts",
+    "line": 65
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 half of the visits is not a clear majority",
+    "file": "engine/test/twin.test.ts",
+    "line": 70
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 no clear majority means no tendency",
+    "file": "engine/test/twin.test.ts",
+    "line": 75
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 needs enough shots",
+    "file": "engine/test/twin.test.ts",
+    "line": 84
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 flags a clear shift in the last five shots",
+    "file": "engine/test/twin.test.ts",
+    "line": 88
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 normal variation is not drift",
+    "file": "engine/test/twin.test.ts",
+    "line": 94
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 the mean error falls from the prior to 40 shots",
+    "file": "tools/evidence/twin-eval.test.ts",
+    "line": 9
+  },
+  {
+    "tag": "R4",
+    "title": "@R4 the spread error falls too",
+    "file": "tools/evidence/twin-eval.test.ts",
+    "line": 15
+  }
+]

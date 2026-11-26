@@ -1,0 +1,36 @@
+{
+  "name": "mycaddy-track-b",
+  "version": "0.2.0",
+  "private": true,
+  "author": "Nahid Hasan Rayan",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "trace": "tsx tools/trace/collect.ts",
+    "engine:types": "tsc -p tsconfig.engine.json",
+    "relay:build": "esbuild server/relay/src/index.ts --bundle --platform=node --format=cjs --outfile=server/relay/dist/index.cjs",
+    "relay:start": "node server/relay/dist/index.cjs",
+    "relay:local": "tsx server/relay/src/index.ts",
+    "relay:sim": "tsx server/relay/sim/run.ts",
+    "pack": "tsx tools/pack/cli.ts",
+    "quality:mutate": "tsx tools/quality/mutate.ts",
+    "quality:probe": "tsx tools/quality/probe.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/ws": "^8.18.2",
+    "@vitest/coverage-v8": "^4.0.0",
+    "esbuild": "^0.28.2",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^4.0.0"
+  },
+  "dependencies": {
+    "ws": "^8.23.0",
+    "zod": "^3.23.8"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

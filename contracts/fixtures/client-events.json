@@ -1,0 +1,8 @@
+{
+  "t": "events",
+  "batch": [
+    { "id": "e3", "playerId": "p1", "hole": 2, "strokes": 3, "ts": 1790000400000 },
+    { "id": "e4", "playerId": "p1", "hole": 2, "strokes": 4, "ts": 1790000500000, "kind": "correction", "supersedes": "e3" },
+    { "id": "e5", "playerId": "p1", "hole": 2, "strokes": 4, "ts": 1790000600000, "kind": "correction", "supersedes": "e4", "resolves": ["e3", "e9"] }
+  ]
+}

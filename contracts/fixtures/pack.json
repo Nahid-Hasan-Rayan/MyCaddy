@@ -1,0 +1,31 @@
+{
+  "id": "utm-demo",
+  "name": "UTM Field Demo",
+  "version": 1,
+  "simulatedHazards": true,
+  "holes": [
+    {
+      "n": 1,
+      "par": 4,
+      "green": [
+        { "lat": 1.5601, "lng": 103.6401 },
+        { "lat": 1.5601, "lng": 103.6403 },
+        { "lat": 1.5603, "lng": 103.6402 }
+      ],
+      "tee": { "lat": 1.5590, "lng": 103.6400 },
+      "hazards": [
+        {
+          "id": "w1",
+          "type": "water",
+          "polygon": [
+            { "lat": 1.5595, "lng": 103.6399 },
+            { "lat": 1.5595, "lng": 103.6403 },
+            { "lat": 1.5597, "lng": 103.6403 },
+            { "lat": 1.5597, "lng": 103.6399 }
+          ]
+        }
+      ],
+      "source": "virtual"
+    }
+  ]
+}

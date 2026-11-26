@@ -1,0 +1,31 @@
+# NHR: typecheck, test with coverage gate, audit, and a live probe of the built relay
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --legacy-peer-deps
+      - run: npm run typecheck
+      - run: npx vitest run --coverage
+      - run: npm audit --omit=dev --audit-level=critical
+      - run: npm run relay:build
+      - name: probe the built relay
+        run: |
+          PORT=8099 RELAY_SECRET=ci-secret node server/relay/dist/index.cjs &
+          sleep 3
+          npx tsx tools/quality/probe.ts ws://localhost:8099
